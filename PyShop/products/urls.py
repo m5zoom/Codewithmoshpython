@@ -1,4 +1,4 @@
-from django.urls import path
+from django.conf.urls import url
 from . import views
 
 #
@@ -6,7 +6,7 @@ from . import views
 # /products/new/
 
 urlpatterns = [
-    path('', views.index),
-    path('new', views.new)
+    url('', views.index),
+    url('new', views.new)
 ]
 
