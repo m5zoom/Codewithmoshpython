@@ -9,4 +9,3 @@ urlpatterns = [
     url('', views.index),
     url('new', views.new)
 ]
-
